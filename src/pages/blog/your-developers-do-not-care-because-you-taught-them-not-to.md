@@ -131,7 +131,9 @@ That maps painfully well to software teams.
 
 Developers need enough autonomy to make tradeoffs, enough competence support to do work they can be proud of, and enough relatedness to feel they are part of a serious team rather than disposable hands on a keyboard. A culture of blind deadlines attacks all three. It removes autonomy by turning estimates into orders. It attacks competence by forcing people to ship work below their own standards. It weakens relatedness by making management feel like an adversary instead of a partner in reality.
 
-DHH recently described one version of this with the image of a successful business becoming [a pond of interesting problems](https://world.hey.com/dhh/a-pond-of-interesting-problems-5f697567). That is not just a charming founder line. It is what happens when a company has enough trust, talent, and operating room for people to spend more of their energy where curiosity and business need overlap. Not every task will be fascinating. Taking out the trash is still part of work. But if every meaningful engineering choice is squeezed through fear of a date, you drain the pond and then complain nobody wants to fish.
+DHH recently wrote about the dividend of building 37signals as [a pond of interesting problems](https://world.hey.com/dhh/a-pond-of-interesting-problems-5f697567). I like that frame because it says something many managers miss: a good company should not merely extract hours from capable people. It should increasingly arrange the work so capable people spend more time on the problems where their judgment, taste, and curiosity have the highest return.
+
+Some work will always be plain maintenance. Some fire will always need someone's attention. Nobody is too important to take out the trash sometimes. But the general direction of a maturing company should be toward better fit between people and problems, not more obedience to a calendar. A blind deadline culture moves in the opposite direction. It takes interesting work and reduces it to date-keeping. It takes judgment and turns it into compliance.
 
 Then leadership wonders why motivation drops.
 
