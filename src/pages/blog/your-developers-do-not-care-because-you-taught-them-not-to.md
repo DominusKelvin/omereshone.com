@@ -13,9 +13,11 @@ It is easier to complain that engineers are lazy, entitled, slow, unserious, ove
 
 Those things may be true in some cases. Of course some people are unserious. Of course some employees are only there for the salary. Of course some developers talk a bigger game than they can play.
 
-But if that is where the conversation stops, we have learned nothing.
+That explanation is too convenient.
 
-Because a much harder question remains:
+It lets the system escape inspection.
+
+A much harder question remains:
 
 > What kind of company turns people who once cared into people who only want to survive the next deadline?
 
