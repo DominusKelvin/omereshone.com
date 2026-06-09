@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/BlogPost.astro'
-title: 'Your Developers Do Not Care Because You Taught Them Not To'
-description: 'If you want engineers to do quality work, your deadlines must leave room for truth, tradeoffs, and missed estimates within reason. Otherwise reward and punishment will teach people to check boxes instead of protect the product.'
+title: 'Do You Want It Done, Or Checked Off?'
+description: 'When deadlines punish truth, engineers learn to protect the date instead of the product. Quality work needs room for trust, tradeoffs, and honest misses within reason.'
 pubDate: 'June 9, 2026'
 ---
 
