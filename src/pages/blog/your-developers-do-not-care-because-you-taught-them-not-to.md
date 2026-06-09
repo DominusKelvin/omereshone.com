@@ -137,6 +137,22 @@ Then leadership wonders why motivation drops.
 
 Motivation is not magic. Motivation is partly the residue of what your environment repeatedly rewards and punishes.
 
+## Work ethic is not overwork
+
+This is also where many companies corrupt the meaning of work ethic.
+
+In [It Doesn't Have to Be Crazy at Work](https://books.google.com/books?vid=ISBN0062874780), Jason Fried and DHH push back against the outwork myth: the idea that success belongs to whoever can simply keep going longer than everyone else. That argument belongs in this conversation because many managers still treat exhaustion as evidence of character.
+
+The employee who is always online, always available, always replying, always rescuing, always sacrificing evenings, always touching every thread, and always saying yes becomes the visible symbol of "care." Then the person who works calmly, protects focus, communicates early, avoids drama, and goes home at a sane hour starts to look less committed by comparison. That is how a company quietly teaches everyone to confuse motion with contribution.
+
+Availability is not the same as reliability. Exhaustion is not the same as ownership. Being easy to interrupt is not the same as being useful. A person can be present everywhere and still create drag for everyone else. A person can work reasonable hours and still be the person whose judgment saves the team months of pain.
+
+Real work ethic is quieter than hustle culture wants it to be. It is doing what you said you would do, respecting the customer, respecting the work, not wasting other people's time, not creating unnecessary work, not hiding risk, not becoming a bottleneck, and not using busyness as a costume for importance.
+
+If management praises the person who is always around more than the person who makes the system calmer, it should not be surprised when everyone starts performing availability. People will learn to keep Slack green, send late-night messages, join meetings they do not need, and narrate effort instead of improving outcomes.
+
+That too is how companies teach people not to care. They make the performance of caring more rewarding than the practice of it.
+
 ## The deadline is not the villain. The system is.
 
 Bad managers think the problem is pressure. Good managers understand that the problem is unmanaged pressure.
