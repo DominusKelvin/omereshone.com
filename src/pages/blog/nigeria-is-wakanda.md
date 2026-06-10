@@ -3,6 +3,7 @@ layout: '../../layouts/BlogPost.astro'
 title: 'Nigeria Is Wakanda'
 description: 'Nigeria does not suffer from a shortage of genius. It suffers from a shortage of memory, standards, and the discipline to honor the right people.'
 pubDate: 'April 23, 2026'
+draft: true
 ---
 
 Every time I say "Nigeria is Wakanda," somebody wants to laugh first.
