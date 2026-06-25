@@ -2,6 +2,7 @@
 import BaseHead from '../components/BaseHead.astro'
 import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
+import ReadingProgress from '../components/ReadingProgress.astro'
 
 export interface Props {
   content: {
@@ -27,6 +28,7 @@ const xSearchUrl = `https://x.com/search?q=${encodeURI(String(Astro.url))}`
 
   <body class="theme-shell">
     <Header />
+    <ReadingProgress />
 
     <main class="min-h-screen">
       <article class="max-w-3xl mx-auto px-4 sm:px-10 py-12 lg:py-20">
@@ -113,6 +115,7 @@ const xSearchUrl = `https://x.com/search?q=${encodeURI(String(Astro.url))}`
 
         <!-- Article content -->
         <div
+          data-reading-progress-content
           class="theme-prose
           prose-headings:font-bold
           prose-h2:text-2xl prose-h2:mt-12 prose-h2:mb-4
