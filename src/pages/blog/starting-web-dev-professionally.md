@@ -76,7 +76,7 @@ After leaving Fleet Device Management, I decided to be more intentional in build
 
 Doing so quickly got me from 500 to 10,000+ followers within the space of 4 months and this blew my mind.
 
-I had previously started a show on YouTube called [TKYT](https://dominuskelvin.dev/tkyt)(Teach Kelvin Your Thing) - a series where I invite people building technologies to teach me something for an hour. I’ve done over [30+ sessions](https://youtube.com/playlist?list=PL4qsujwiHvcP-a8z1--RyZ8XVFHbeBIfn) now.
+I had previously started a show on YouTube called [TKYT](https://omereshone.com/tkyt)(Teach Kelvin Your Thing) - a series where I invite people building technologies to teach me something for an hour. I’ve done over [30+ sessions](https://youtube.com/playlist?list=PL4qsujwiHvcP-a8z1--RyZ8XVFHbeBIfn) now.
 
 Also connecting with people for TKYT got me in touch with someone from the company I am currently a [JavaScript engineer and Developer Advocate](https://x.com/Dominus_Kelvin/status/1587844494749155329?s=20) at.
 
@@ -112,7 +112,7 @@ With how intuitive Vue is, I see it as a great framework to build a business of 
 
 In my opinion, JavaScript is an unfair advantage to build businesses on in terms of the technology stack.
 
-Join the [BBoJS newsletter](https://newsletter.dominuskelvin.dev) to get inspired by stories of people building businesses on JavaScript.
+Join the [BBoJS newsletter](https://newsletter.omereshone.com) to get inspired by stories of people building businesses on JavaScript.
 
 ## Conclusion
 

@@ -91,7 +91,7 @@ Take the time to learn you language be it JavaScript, PHP, Rust, really know the
 
 ### Suggestion
 
-There are concepts, patterns and nuances that are unique to your language of programming. Do learn them, it gives depth to your [expressiveness](https://dominuskelvin.dev/blog/expressiveness). Learning your language would give you options to chose from when solving problems with them.
+There are concepts, patterns and nuances that are unique to your language of programming. Do learn them, it gives depth to your [expressiveness](https://omereshone.com/blog/expressiveness). Learning your language would give you options to chose from when solving problems with them.
 
 ## Mistake #9 - Not learning patterns and solutions
 

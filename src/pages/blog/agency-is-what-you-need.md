@@ -36,7 +36,7 @@ Agency is doing, not describing. Building, not planning. Shipping, not announcin
 
 Here's the uncomfortable truth: AI is democratizing intelligence and skill at a pace we've never seen before.
 
-As I laid out in [my previous piece](/blog/ai-will-take-your-job), AI-assisted coding tools like [Warp](https://warp.dev?utm_source=dominuskelvin.dev/blog) can already write mediocre code better and faster than junior engineers. They can explain complex systems, suggest architectural approaches, and generate solutions across multiple domains.
+As I laid out in [my previous piece](/blog/ai-will-take-your-job), AI-assisted coding tools like [Warp](https://warp.dev?utm_source=omereshone.com/blog) can already write mediocre code better and faster than junior engineers. They can explain complex systems, suggest architectural approaches, and generate solutions across multiple domains.
 
 **Intelligence, in the traditional sense, is becoming a commodity.**
 
@@ -66,11 +66,11 @@ Not because I'm brilliant. Because I act.
 
 - When Sails.js needed better tooling, I didn't wait for someone smarter—I shipped [Sails Language Server](https://github.com/sailshq/language-tools) and the [official Sails VS Code extension](https://marketplace.visualstudio.com/items?itemName=Sails.sails-vscode).
 
-- When developers needed to learn fullstack JavaScript, I created [Sailscasts](https://sailscasts.com/courses?utm_source=dominuskelvin.dev), taught courses, wrote [documentation](https://docs.sailscasts.com), and built a [community](https://sailscasts.com/chat).
+- When developers needed to learn fullstack JavaScript, I created [Sailscasts](https://sailscasts.com/courses?utm_source=omereshone.com), taught courses, wrote [documentation](https://docs.sailscasts.com), and built a [community](https://sailscasts.com/chat).
 
 - When African engineering excellence wasn't being covered by mainstream media, I launched [The African Engineer](https://africanengineer.com) to amplify their voices.
 
-- When I needed to get invoices out, I built [Hagfish](https://hagfish.io?utm_source=dominuskelvin.dev) instead of wrestling with clunky tools.
+- When I needed to get invoices out, I built [Hagfish](https://hagfish.io?utm_source=omereshone.com) instead of wrestling with clunky tools.
 
 None of these required genius. They required **showing up and doing the work**.
 
@@ -82,7 +82,7 @@ That's agency. Not talking about it. Not planning it to perfection. Making it.
 
 ## AI As a Force Multiplier
 
-Here's where it gets interesting: tools like [Warp](https://warp.dev?utm_source=dominuskelvin.dev/blog) don't replace agency—they multiply it.
+Here's where it gets interesting: tools like [Warp](https://warp.dev?utm_source=omereshone.com/blog) don't replace agency—they multiply it.
 
 When I use Warp's AI-powered terminal, I'm not outsourcing my thinking. I'm **accelerating my execution**. I can:
 
