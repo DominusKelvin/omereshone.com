@@ -6,7 +6,7 @@ import vue from '@astrojs/vue'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://dominuskelvin.dev',
+  site: 'https://omereshone.com',
   integrations: [mdx(), sitemap(), vue()],
   vite: {
     plugins: [tailwindcss()],
@@ -14,7 +14,7 @@ export default defineConfig({
   redirects: {
     '/yt': 'https://youtube.com/@dominuskelvin',
     '/x': 'https://x.com/Dominus_Kelvin',
-    '/nl': 'https://newsletter.dominuskelvin.dev',
+    '/nl': 'https://newsletter.omereshone.com',
     '/gh': 'https://github.com/DominusKelvin',
     '/in': 'https://linkedin.com/in/kelvinomereshone',
     '/ghs': 'https://github.com/sponsors/DominusKelvin',

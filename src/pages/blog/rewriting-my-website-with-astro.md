@@ -63,7 +63,7 @@ Astro claimed to be [fast by default](https://docs.astro.build/en/concepts/why-a
 
 > It should be impossible to build a slow website in Astro.
 
-I found this all to be true when I ran the PageSpeed test for my website. The [score](https://pagespeed.web.dev/report?url=https%3A%2F%2Fdominuskelvin.dev%2F) was unbelievable.
+I found this all to be true when I ran the PageSpeed test for my website. The [score](https://pagespeed.web.dev/report?url=https%3A%2F%2Fomereshone.com%2F) was unbelievable.
 
 ### Superb DX
 

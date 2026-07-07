@@ -20,7 +20,7 @@ The Model T wasn't better because it was more elegant or more capable in every s
 
 I was wrong.
 
-For months I was one of those well-intentioned voices saying, "AI won't replace engineers, it's just a tool to augment us." I wanted to believe it. I still want to believe it. But after spending substantial time building with AI-assisted coding tools like [Warp](https://warp.dev?utm_source=dominuskelvin.dev/blog), I can no longer ignore the economic reality staring me in the face.
+For months I was one of those well-intentioned voices saying, "AI won't replace engineers, it's just a tool to augment us." I wanted to believe it. I still want to believe it. But after spending substantial time building with AI-assisted coding tools like [Warp](https://warp.dev?utm_source=omereshone.com/blog), I can no longer ignore the economic reality staring me in the face.
 
 Anyone who claims AI won't replace engineers in most tasks, though well-intentioned, is completely wrong.
 

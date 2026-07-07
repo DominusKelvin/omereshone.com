@@ -1,6 +1,6 @@
 # Kelvin Omereshone's website
 
-This is the repo of [dominuskelvin.dev](https://dominuskelvin.dev) which is the personal website of [Kelvin Omereshone](https://dominuskelvin.dev)
+This is the repo of [omereshone.com](https://omereshone.com) which is the personal website of [Kelvin Omereshone](https://omereshone.com)
 
 ## Why is this repo open source
 
@@ -18,8 +18,8 @@ You can use this repo as inspiration or just fork it to make your own website
 
 ### Contributors
 
-<a href="https://github.com/DominusKelvin/dominuskelvin.dev/graphs/contributors">
+<a href="https://github.com/DominusKelvin/omereshone.com/graphs/contributors">
   <p align="center">
-    <img  src="https://contrib.rocks/image?repo=DominusKelvin/dominuskelvin.dev" alt="A table of avatars from the project's contributors" />
+    <img  src="https://contrib.rocks/image?repo=DominusKelvin/omereshone.com" alt="A table of avatars from the project's contributors" />
   </p>
 </a>

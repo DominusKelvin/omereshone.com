@@ -6,7 +6,7 @@ import Footer from '../components/Footer.astro'
 const pageTitle = 'Music by Kelvin Omereshone | Hire for Sessions and Scores'
 const pageDescription =
   'Book Kelvin Omereshone for recording sessions, live keys, arrangement, film scoring, musical direction, and production support.'
-const contactEmail = 'music@dominuskelvin.dev'
+const contactEmail = 'music@omereshone.com'
 
 const services = [
   {
@@ -138,7 +138,7 @@ const mailtoHref = `mailto:${contactEmail}?subject=${encodeURIComponent(
     />
     <script is:inline>
       ;(() => {
-        const storageKey = 'dominuskelvin.music.currency'
+        const storageKey = 'omereshone.music.currency'
         const fallback = 'usd'
 
         const getUrlCurrency = () => {
@@ -727,7 +727,7 @@ const mailtoHref = `mailto:${contactEmail}?subject=${encodeURIComponent(
     <Footer compact />
 
     <script>
-      const storageKey = 'dominuskelvin.music.currency'
+      const storageKey = 'omereshone.music.currency'
       const buttons = document.querySelectorAll('[data-currency-button]')
       const rateOptions = document.querySelectorAll('[data-rate-option]')
       const quantityInput = document.querySelector('[data-estimate-quantity]')
@@ -866,7 +866,7 @@ Reference links or scene link:
 
 `
 
-          estimateMailto.href = `mailto:music@dominuskelvin.dev?subject=${encodeURIComponent(
+          estimateMailto.href = `mailto:music@omereshone.com?subject=${encodeURIComponent(
             subject,
           )}&body=${encodeURIComponent(body)}`
         }

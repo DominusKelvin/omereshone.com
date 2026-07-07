@@ -378,7 +378,7 @@ If you are a writer, you should be rewriting great prose and feeling where your 
 
 If you are an engineer, you should be re-implementing systems you admire and learning where your thinking becomes fuzzy.
 
-If you are a founder, you should stop staring at headlines and start studying operational rhythm: how strong operators sequence decisions, [price products](https://dominuskelvin.dev/blog/build-globally-price-locally/), hire slowly, and build distribution.
+If you are a founder, you should stop staring at headlines and start studying operational rhythm: how strong operators sequence decisions, [price products](https://omereshone.com/blog/build-globally-price-locally/), hire slowly, and build distribution.
 
 In every case, the deeper lesson is the same: learn the process, not the performance.
 

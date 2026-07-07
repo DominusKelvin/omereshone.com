@@ -1,4 +1,4 @@
-# Copilot Instructions for dominuskelvin.dev
+# Copilot Instructions for omereshone.com
 
 ## Project Overview
 
@@ -9,7 +9,6 @@ Personal website for Kelvin Omereshone built with Astro v3, featuring blog posts
 ### Dual Content Systems
 
 1. **Blog Posts** (`src/pages/blog/*.{md,mdx}`) - Self-hosted content using frontmatter with layout reference
-
    - Uses `Astro.glob('./blog/*.{md,mdx}')` for discovery
    - Layout: `src/layouts/BlogPost.astro`
    - Frontmatter: `layout`, `title`, `description`, `pubDate`, `heroImage`, optional `draft` flag
