@@ -2,7 +2,7 @@
 layout: '../../layouts/BlogPost.astro'
 title: 'I Love Writing'
 description: 'I have been publishing more and writing less. AI gave me speed, but somewhere along the way I handed it the part I actually loved.'
-pubDate: 'September 23, 2026'
+pubDate: 'August 30, 2026'
 heroImage: /covers/i-love-writing.png
 ---
 
