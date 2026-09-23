@@ -126,7 +126,22 @@ const xSearchUrl = `https://x.com/search?q=${encodeURI(String(Astro.url))}`
           prose-code:px-1.5 prose-code:py-0.5 prose-code:text-sm prose-code:before:content-none prose-code:after:content-none
           prose-ul:my-6 prose-ol:my-6
           prose-li:leading-relaxed
-          prose-blockquote:border-l-green-600 prose-blockquote:italic"
+          prose-blockquote:relative prose-blockquote:my-10
+          prose-blockquote:border-0 prose-blockquote:border-l-[0.2rem] prose-blockquote:border-l-green-500
+          prose-blockquote:rounded-none prose-blockquote:bg-transparent prose-blockquote:py-[0.35rem]
+          prose-blockquote:pl-[clamp(1.25rem,3vw,2rem)] prose-blockquote:pr-0
+          prose-blockquote:text-app-text prose-blockquote:not-italic prose-blockquote:shadow-none
+          [&_blockquote>p]:relative [&_blockquote>p]:m-0 [&_blockquote>p]:max-w-[42ch]
+          [&_blockquote>p]:font-serif [&_blockquote>p]:text-[clamp(1.25rem,1.12rem+0.55vw,1.55rem)]
+          [&_blockquote>p]:font-medium [&_blockquote>p]:tracking-[-0.015em]
+          [&_blockquote>p]:leading-[1.45] [&_blockquote>p]:text-pretty
+          [&_blockquote>footer]:mt-5 [&_blockquote>footer]:max-w-[58ch]
+          [&_blockquote>footer]:font-sans [&_blockquote>footer]:text-[0.8125rem]
+          [&_blockquote>footer]:font-medium [&_blockquote>footer]:not-italic [&_blockquote>footer]:tracking-normal
+          [&_blockquote>footer]:leading-[1.65] [&_blockquote>footer]:text-app-text-soft
+          [&_blockquote>p:first-of-type]:before:content-none
+          [&_blockquote>p:last-of-type]:after:content-none
+          [&_blockquote_a]:font-semibold [&_blockquote_a]:text-green-600 [&_blockquote_a]:no-underline"
         >
           <slot />
         </div>
