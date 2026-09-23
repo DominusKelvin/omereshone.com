@@ -11,11 +11,12 @@ export interface Props {
     pubDate?: string
     updatedDate?: string
     heroImage?: string
+    ogImage?: string
   }
 }
 
 const {
-  content: { title, description, pubDate, updatedDate, heroImage },
+  content: { title, description, pubDate, updatedDate, heroImage, ogImage },
 } = Astro.props
 
 const xSearchUrl = `https://x.com/search?q=${encodeURI(String(Astro.url))}`
@@ -23,7 +24,11 @@ const xSearchUrl = `https://x.com/search?q=${encodeURI(String(Astro.url))}`
 
 <html lang="en" class="scroll-smooth">
   <head>
-    <BaseHead title={title} description={description} image={heroImage} />
+    <BaseHead
+      title={title}
+      description={description}
+      image={ogImage ?? heroImage}
+    />
   </head>
 
   <body class="theme-shell">
