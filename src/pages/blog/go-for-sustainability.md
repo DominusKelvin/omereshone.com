@@ -1,22 +1,22 @@
 ---
 layout: '../../layouts/BlogPost.astro'
-title: 'Build a Business That Can Pay Its Bills'
+title: 'Fuck Scale. Go for Sustainability.'
 description: 'Before chasing scale, build a business that can cover its costs, pay its people, and keep serving its customers.'
 pubDate: 'November 7, 2026'
 heroImage: /covers/sustainability.png
 ---
 
-You have 40 users. You don’t know how many of them would pay. But you are already worried about what happens when a million people show up.
+Fuck scale.
 
-So you build for a million people. You buy the infrastructure, add the services, plan the team and spend three weeks making sure the architecture can handle growth.
+You have 40 users, no idea how many of them will pay, and an infrastructure plan for a million. You have spent more time preparing for imaginary traffic than figuring out whether the people already using your product find it worth paying for.
 
-Meanwhile, the 40 people you actually have are still trying to understand why they should keep using your product.
+What exactly are you trying to grow?
 
-I want more builders to stop and ask a much less exciting question: can this business sustain itself?
+If every new customer costs you more than they pay, you are growing a loss. If the business only survives because you work for free, you are growing a job you cannot afford to have. A bigger number on the dashboard will not pay the bills for you.
 
-Can customers pay enough for the value you provide to cover the cost of providing it? Can you pay the people doing the work, including yourself? Can the business survive an ordinary bad month without an emergency fundraising campaign?
+I want more builders to go for sustainability. Build something customers value enough to pay for. Charge enough to deliver it properly, pay the people doing the work, including yourself, and leave money in the business. Give yourself room to survive a bad month without turning it into an emergency fundraising campaign.
 
-Those questions deserve your attention before the million users do.
+Go for profit from day one. You can decide how big to make the business while you are building one that actually works.
 
 ## Go for profit from day one
 
