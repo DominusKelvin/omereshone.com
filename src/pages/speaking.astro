@@ -1,0 +1,217 @@
+---
+import BaseHead from '../components/BaseHead.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+
+const contact = import.meta.env.PUBLIC_SPEAKING_EMAIL || 'koo@hey.com'
+const inquiry = `mailto:${contact}?subject=${encodeURIComponent('Speaking inquiry for Kelvin')}&body=${encodeURIComponent(
+  [
+    'Hi Kelvin,',
+    '',
+    'I’d like to invite you to speak at our event.',
+    '',
+    'Organizer and organization:',
+    'Event name and website:',
+    'Date and timezone:',
+    'City and venue, or virtual:',
+    'Format (keynote, talk, workshop, panel):',
+    'Audience and approximate size:',
+    'What you want attendees to take away:',
+    'Budget and currency:',
+    'Recording or broadcast plans (if any):',
+    '',
+  ].join('\r\n'),
+)}`
+
+const places = [
+  { title: 'Abuja', rate: 'From ₦350,000' },
+  { title: 'Lagos', rate: 'From ₦500,000 + travel' },
+  { title: 'Elsewhere in Nigeria', rate: 'From ₦500,000 + travel' },
+  { title: 'Online · Nigeria', rate: 'From ₦250,000' },
+  { title: 'International', rate: 'Quoted in US dollars (USD)' },
+]
+
+const topics = [
+  {
+    title: 'Build for sustainability',
+    copy: 'Choose what to simplify, what to keep, and what not to scale. Build software and businesses you can afford to run.',
+  },
+  {
+    title: 'Build in the open',
+    copy: 'From a first contribution to maintaining a project: how to build in public, receive useful feedback, and make open source sustainable.',
+  },
+  {
+    title: 'Ship with less JavaScript',
+    copy: 'Practical full-stack JavaScript: boring architecture, real deployment choices, and the trade-offs of shipping less code to the browser.',
+  },
+]
+const talks = [
+  {
+    meta: 'XPand Summit · Abuja · 2026',
+    title: 'Building for sustainability',
+    href: '/blog/go-for-sustainability/',
+    action: 'Read the essay inspired by the talk',
+  },
+  {
+    meta: 'She Code Africa · Port Harcourt · 2026',
+    title:
+      'Coding in the Open: From Your First Issue to Your First Contribution',
+    href: 'https://luma.com/rwyj1skw',
+    action: 'View the event',
+  },
+  {
+    meta: 'Sailscasts · 2024',
+    title: 'What’s new in Sails land',
+    href: 'https://www.youtube.com/watch?v=LL_EgzFBmYs',
+    action: 'Watch the talk',
+  },
+  {
+    meta: 'Node Congress · 2021',
+    title: 'Web APIs with Sails',
+    href: 'https://gitnation.com/person/kelvin_omereshone',
+    action: 'View the workshop',
+  },
+]
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      title="Speaking | Kelvin Omereshone"
+      description="Book Kelvin Omereshone for paid keynotes, technical talks, workshops, and panels in Abuja, across Nigeria, internationally, or online."
+      image="/koo.png"
+      canonical="https://omereshone.com/speaking/"
+    />
+  </head>
+  <body class="theme-shell">
+    <Header />
+    <main class="mx-auto max-w-5xl px-4 sm:px-10">
+      <section class="border-b border-app-border py-14 lg:py-20">
+        <h1
+          class="max-w-3xl text-4xl font-bold tracking-tight text-app-text sm:text-6xl"
+        >
+          Book me to speak.
+        </h1>
+        <p
+          class="mt-5 max-w-2xl text-lg leading-relaxed text-app-text-muted sm:text-xl"
+        >
+          I’m Kelvin Omereshone, lead maintainer of Sails and founder of
+          Sailscasts. I speak about building software that lasts, working in the
+          open, and making the business side of software work.
+        </p>
+        <p class="mt-3 max-w-xl text-base leading-relaxed text-app-text-soft">
+          Keynotes, technical talks, workshops, and panels. Based in Abuja,
+          available elsewhere in person and online.
+        </p>
+        <p
+          class="mt-4 max-w-xl border-l-2 border-green-600 pl-4 leading-relaxed text-app-text"
+        >
+          Starting in 2027, all my speaking engagements will be paid, except
+          Sailsconf.
+        </p>
+        <a
+          href="#inquire"
+          class="mt-7 inline-flex min-h-11 items-center rounded-md bg-green-700 px-5 py-3 font-semibold text-white hover:bg-green-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-green-600"
+          >Request a booking</a
+        >
+      </section>
+
+      <section
+        class="border-b border-app-border py-12"
+        aria-labelledby="places"
+      >
+        <h2 id="places" class="text-2xl font-semibold text-app-text">
+          Speaking fees
+        </h2>
+        <p class="mt-3 max-w-2xl leading-relaxed text-app-text-muted">
+          These starting rates are for a 30–45 minute talk. I quote workshops
+          and custom formats separately. For in-person events outside Abuja,
+          we’ll agree on travel and accommodation separately from the speaking
+          fee.
+        </p>
+        <dl class="mt-5 divide-y divide-app-border">
+          {
+            places.map(({ title, rate }) => (
+              <div class="grid gap-1 py-3 sm:grid-cols-2">
+                <dt class="font-semibold text-app-text">{title}</dt>
+                <dd class="text-app-text-muted">{rate}</dd>
+              </div>
+            ))
+          }
+        </dl>
+      </section>
+
+      <section
+        class="border-b border-app-border py-12"
+        aria-labelledby="topics"
+      >
+        <h2 id="topics" class="text-2xl font-semibold text-app-text">
+          What I speak about
+        </h2>
+        <ul class="mt-5 grid gap-3">
+          {
+            topics.map(({ title, copy }) => (
+              <li class="rounded-lg border border-app-border px-4 py-3 sm:px-5">
+                <h3 class="text-lg font-semibold text-app-text">{title}</h3>
+                <p class="mt-1 leading-relaxed text-app-text-muted">{copy}</p>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      <section
+        class="border-b border-app-border py-12"
+        aria-labelledby="past-talks"
+      >
+        <h2 id="past-talks" class="text-2xl font-semibold text-app-text">
+          Selected past talks
+        </h2>
+        <ul class="mt-3 divide-y divide-app-border">
+          {
+            talks.map(({ meta, title, href, action }) => (
+              <li class="grid gap-2 py-4 sm:grid-cols-[1fr_auto] sm:items-center">
+                <div>
+                  <p class="text-sm text-app-text-soft">{meta}</p>
+                  <h3 class="font-semibold text-app-text">{title}</h3>
+                </div>
+                <a
+                  href={href}
+                  class="font-medium text-app-text underline decoration-green-600 underline-offset-4"
+                  aria-label={`${action}: ${title}`}
+                >
+                  {action}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      <section
+        id="inquire"
+        class="scroll-mt-8 py-12 lg:py-16"
+        aria-labelledby="inquiry"
+      >
+        <h2 id="inquiry" class="text-2xl font-semibold text-app-text">
+          Tell me about your event
+        </h2>
+        <p class="mt-3 max-w-2xl leading-relaxed text-app-text-muted">
+          Send your date, location, audience, format, and budget. I’ll check
+          availability and follow up with a quote. We’ll agree on the scope and
+          payment details before confirming the booking.
+        </p>
+        <a
+          href={inquiry}
+          class="mt-5 inline-flex min-h-11 items-center rounded-md bg-green-700 px-5 py-3 font-semibold text-white hover:bg-green-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-green-600"
+          >Email a speaking inquiry</a
+        >
+        <p class="mt-3 text-sm text-app-text-soft">
+          Opens an editable draft in your email app.
+        </p>
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>

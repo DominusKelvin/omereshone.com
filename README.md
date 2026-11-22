@@ -23,3 +23,9 @@ You can use this repo as inspiration or just fork it to make your own website
     <img  src="https://contrib.rocks/image?repo=DominusKelvin/omereshone.com" alt="A table of avatars from the project's contributors" />
   </p>
 </a>
+
+### Speaking inquiries
+
+The `/speaking/` page opens an editable email draft with the organizer’s event
+details. Set `PUBLIC_SPEAKING_EMAIL` at build time to use a different public
+booking inbox. The page does not charge a fee or confirm a booking.
