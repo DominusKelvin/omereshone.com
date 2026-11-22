@@ -12,8 +12,29 @@ test('links to speaking and distinguishes locations, past work, and booking', as
   await expect(
     page.getByRole('heading', { name: 'Book me to speak.' }),
   ).toBeVisible()
-  await expect(page.getByText('From ₦350,000')).toBeVisible()
+  await expect(page.getByText('₦350,000')).toBeVisible()
   await expect(page.getByText('Lagos', { exact: true })).toBeVisible()
+  await expect(page.getByText('₦500,000')).toBeVisible()
+  await expect(page.getByText('₦700,000')).toBeVisible()
+  await expect(page.getByText('₦250,000')).toBeVisible()
+  await expect(
+    page.getByText('All my speaking engagements are paid, except Sailsconf.'),
+  ).toBeVisible()
+  await expect(page.getByText('Starting in 2027')).toHaveCount(0)
+  await expect(
+    page.getByRole('heading', { name: 'You Want Originality Too Early' }),
+  ).toBeVisible()
+  await expect(
+    page.getByRole('heading', { name: 'No Evidence This Could Work' }),
+  ).toBeVisible()
+  await expect(
+    page.getByRole('heading', {
+      name: 'Earn Influence Before You Have Authority',
+    }),
+  ).toBeVisible()
+  await expect(
+    page.getByRole('heading', { name: 'Build Something Worth Growing' }),
+  ).toBeVisible()
   await expect(page.getByText('Quoted in US dollars (USD)')).toBeVisible()
   await expect(
     page.getByRole('heading', { name: 'Selected past talks' }),

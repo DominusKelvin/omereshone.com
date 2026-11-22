@@ -24,27 +24,40 @@ const inquiry = `mailto:${contact}?subject=${encodeURIComponent('Speaking inquir
 )}`
 
 const places = [
-  { title: 'Abuja', rate: 'From ₦350,000' },
-  { title: 'Lagos', rate: 'From ₦500,000 + travel' },
-  { title: 'Elsewhere in Nigeria', rate: 'From ₦500,000 + travel' },
-  { title: 'Online · Nigeria', rate: 'From ₦250,000' },
-  { title: 'International', rate: 'Quoted in US dollars (USD)' },
+  { title: 'Abuja', amount: '₦350,000', detail: 'From' },
+  { title: 'Lagos', amount: '₦500,000', detail: 'From · travel separate' },
+  {
+    title: 'Elsewhere in Nigeria',
+    amount: '₦700,000',
+    detail: 'From · travel separate',
+  },
+  { title: 'Online · Nigeria', amount: '₦250,000', detail: 'From' },
+  {
+    title: 'International',
+    amount: 'By quote',
+    detail: 'Quoted in US dollars (USD)',
+  },
 ]
 
 const topics = [
   {
-    title: 'Build for sustainability',
-    copy: 'Choose what to simplify, what to keep, and what not to scale. Build software and businesses you can afford to run.',
+    title: 'You Want Originality Too Early',
+    copy: 'How to study people who are better than you, turn imitation into judgment, and earn a voice of your own.',
   },
   {
-    title: 'Build in the open',
-    copy: 'From a first contribution to maintaining a project: how to build in public, receive useful feedback, and make open source sustainable.',
+    title: 'No Evidence This Could Work',
+    copy: 'How to start without certainty, tell conviction from stubbornness, and know when the difficult thing is still worth doing.',
   },
   {
-    title: 'Ship with less JavaScript',
-    copy: 'Practical full-stack JavaScript: boring architecture, real deployment choices, and the trade-offs of shipping less code to the browser.',
+    title: 'Earn Influence Before You Have Authority',
+    copy: 'What leading open-source work taught me about winning trust, teaching what you know, and getting people to act when you can’t tell them what to do.',
+  },
+  {
+    title: 'Build Something Worth Growing',
+    copy: 'How to find customers who would miss what you make, charge enough to pay for the work, and build a business that can survive a bad month.',
   },
 ]
+
 const talks = [
   {
     meta: 'XPand Summit · Abuja · 2026',
@@ -97,8 +110,8 @@ const talks = [
           class="mt-5 max-w-2xl text-lg leading-relaxed text-app-text-muted sm:text-xl"
         >
           I’m Kelvin Omereshone, lead maintainer of Sails and founder of
-          Sailscasts. I speak about building software that lasts, working in the
-          open, and making the business side of software work.
+          Sailscasts. I speak about mastery, influence, and building things that
+          last.
         </p>
         <p class="mt-3 max-w-xl text-base leading-relaxed text-app-text-soft">
           Keynotes, technical talks, workshops, and panels. Based in Abuja,
@@ -107,12 +120,11 @@ const talks = [
         <p
           class="mt-4 max-w-xl border-l-2 border-green-600 pl-4 leading-relaxed text-app-text"
         >
-          Starting in 2027, all my speaking engagements will be paid, except
-          Sailsconf.
+          All my speaking engagements are paid, except Sailsconf.
         </p>
         <a
           href="#inquire"
-          class="mt-7 inline-flex min-h-11 items-center rounded-md bg-green-700 px-5 py-3 font-semibold text-white hover:bg-green-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-green-600"
+          class="mt-7 inline-flex min-h-11 items-center rounded-md bg-green-700 px-5 py-3 font-semibold text-white hover:bg-green-800 dark:text-[#101815] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-green-600"
           >Request a booking</a
         >
       </section>
@@ -130,12 +142,19 @@ const talks = [
           we’ll agree on travel and accommodation separately from the speaking
           fee.
         </p>
-        <dl class="mt-5 divide-y divide-app-border">
+        <dl
+          class="mt-7 divide-y divide-app-border-strong border-y border-app-border-strong"
+        >
           {
-            places.map(({ title, rate }) => (
-              <div class="grid gap-1 py-3 sm:grid-cols-2">
+            places.map(({ title, amount, detail }) => (
+              <div class="flex flex-wrap items-center justify-between gap-x-6 gap-y-2 py-4">
                 <dt class="font-semibold text-app-text">{title}</dt>
-                <dd class="text-app-text-muted">{rate}</dd>
+                <dd class="flex flex-col sm:items-end">
+                  <span class="text-xl font-semibold tracking-tight text-app-text tabular-nums sm:text-2xl">
+                    {amount}
+                  </span>
+                  <span class="text-sm text-app-text-soft">{detail}</span>
+                </dd>
               </div>
             ))
           }
@@ -149,10 +168,10 @@ const talks = [
         <h2 id="topics" class="text-2xl font-semibold text-app-text">
           What I speak about
         </h2>
-        <ul class="mt-5 grid gap-3">
+        <ul class="mt-5 grid gap-x-10 sm:grid-cols-2">
           {
             topics.map(({ title, copy }) => (
-              <li class="rounded-lg border border-app-border px-4 py-3 sm:px-5">
+              <li class="border-t border-app-border-strong py-5">
                 <h3 class="text-lg font-semibold text-app-text">{title}</h3>
                 <p class="mt-1 leading-relaxed text-app-text-muted">{copy}</p>
               </li>
@@ -204,7 +223,7 @@ const talks = [
         </p>
         <a
           href={inquiry}
-          class="mt-5 inline-flex min-h-11 items-center rounded-md bg-green-700 px-5 py-3 font-semibold text-white hover:bg-green-800 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-green-600"
+          class="mt-5 inline-flex min-h-11 items-center rounded-md bg-green-700 px-5 py-3 font-semibold text-white hover:bg-green-800 dark:text-[#101815] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-green-600"
           >Email a speaking inquiry</a
         >
         <p class="mt-3 text-sm text-app-text-soft">
