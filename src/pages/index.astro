@@ -4,6 +4,74 @@ import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
 import Socials from '../components/Socials.astro'
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config'
+
+const featuredAdditions = [
+  {
+    name: 'FLOSSAfrica',
+    icon: '🌱',
+    description: 'Funding and visibility for African open-source maintainers.',
+    url: 'https://flossafrica.com/',
+    action: 'Explore FLOSSAfrica',
+  },
+  {
+    name: 'Pairlore',
+    icon: '🏆',
+    description: 'Discover and rank products built in Africa.',
+    url: 'https://pairlore.com/',
+    action: 'Browse Pairlore',
+  },
+  {
+    name: 'Sailsconf',
+    icon: '🎙️',
+    description:
+      'A conference for people building with Sails and full-stack JavaScript.',
+    url: 'https://sailsconf.com/',
+    action: 'Visit Sailsconf',
+  },
+  {
+    name: 'Slipway',
+    icon: '🚢',
+    description: 'Deploy and run Sails apps on your own infrastructure.',
+    url: 'https://docs.sailscasts.com/slipway/',
+    action: 'Explore Slipway',
+  },
+  {
+    name: 'Middlefour',
+    icon: '🌐',
+    description: 'Internet infrastructure built for Africa.',
+    url: 'https://middlefour.com/',
+    action: 'Visit Middlefour',
+  },
+  {
+    name: 'TemboAI',
+    icon: '💬',
+    description: 'Help teach AI to understand and speak African languages.',
+    url: 'https://temboai.com/',
+    action: 'Visit TemboAI',
+  },
+  {
+    name: 'Depth',
+    icon: '🔎',
+    description:
+      'A web-native workspace for reading and understanding software.',
+    url: 'https://depth.sailscasts.com/',
+    action: 'Explore Depth',
+  },
+  {
+    name: 'Klean UI',
+    icon: '◫',
+    description: 'Copy-and-paste UI components for Sails apps.',
+    url: 'https://docs.sailscasts.com/klean-ui/',
+    action: 'Explore Klean UI',
+  },
+  {
+    name: 'Pellicule',
+    icon: '🎬',
+    description: 'Create video programmatically with Vue.',
+    url: 'https://docs.sailscasts.com/pellicule/',
+    action: 'Explore Pellicule',
+  },
+]
 ---
 
 <!doctype html>
@@ -44,7 +112,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config'
             </p>
             <a
               href="/speaking"
-              class="inline-flex min-h-11 items-center rounded-md bg-green-700 px-5 py-3 font-semibold text-white hover:bg-green-800 dark:text-[#101815] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-green-600"
+              class="speaking-cta inline-flex min-h-11 items-center rounded-md px-5 py-3 font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-4"
               >Book me to speak</a
             >
             <div class="pt-4">
@@ -77,12 +145,54 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config'
             Featured Projects & Initiatives
           </h2>
           <p class="text-xl text-app-text-soft">
-            Building tools and communities to help developers thrive with
-            JavaScript
+            Tools, companies, and communities I’m building or helping grow.
           </p>
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          {
+            featuredAdditions.map(
+              ({ name, icon, description, url, action }) => (
+                <article class="group relative theme-card p-6 transition-all hover:-translate-y-1 hover:ring-green-500/50">
+                  <div
+                    aria-hidden="true"
+                    class="flex items-center justify-center w-12 h-12 bg-app-surface-alt rounded-xl mb-5"
+                  >
+                    <span class="text-2xl">{icon}</span>
+                  </div>
+                  <h3 class="text-xl font-semibold text-app-text mb-2">
+                    {name}
+                  </h3>
+                  <p class="text-app-text-soft text-sm leading-relaxed mb-4">
+                    {description}
+                  </p>
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center text-sm font-medium text-green-600 hover:text-green-700"
+                  >
+                    {action}
+                    <svg
+                      aria-hidden="true"
+                      class="w-4 h-4 ml-1.5"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M17 8l4 4m0 0l-4 4m4-4H3"
+                      />
+                    </svg>
+                  </a>
+                </article>
+              ),
+            )
+          }
+
           <!-- The African Engineer -->
           <article
             class="group relative theme-card p-6 transition-all hover:-translate-y-1 hover:ring-green-500/50"
@@ -506,5 +616,28 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config'
       </section>
     </main>
     <Footer />
+    <style>
+      .speaking-cta {
+        color: #fff;
+        background-color: #1e513a;
+        outline-color: #1e513a;
+      }
+
+      .speaking-cta:hover {
+        background-color: #173e2d;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .speaking-cta {
+          color: #101815;
+          background-color: #8fcca9;
+          outline-color: #8fcca9;
+        }
+
+        .speaking-cta:hover {
+          background-color: #aadabc;
+        }
+      }
+    </style>
   </body>
 </html>
